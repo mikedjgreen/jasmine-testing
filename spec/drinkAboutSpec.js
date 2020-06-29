@@ -8,7 +8,8 @@ describe("drinkAbout",function(){
             expect (whatCanIDrink(10)).toBe("Drink Toddy");
             expect (whatCanIDrink(17)).toBe("Drink Coke");
             expect (whatCanIDrink(20)).toBe("Drink Beer");
-            expect (whatCanIDrink(40)).toBe("Drink Rum");   /* Deliberate should be whisky */
+            expect (whatCanIDrink(40)).toBe("Drink Whisky"); 
+            /* expect (whatCanIDrink(40)).toBe("Drink Rum");    Deliberate should be whisky */
         })
     })
 })
